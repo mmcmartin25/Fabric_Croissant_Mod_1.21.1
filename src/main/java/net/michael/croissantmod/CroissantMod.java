@@ -2,6 +2,7 @@ package net.michael.croissantmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.michael.croissantmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,5 +12,6 @@ public class CroissantMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
 	}
 }
