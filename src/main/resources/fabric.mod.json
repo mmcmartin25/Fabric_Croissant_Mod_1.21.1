@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "croissantmod",
+	"version": "${version}",
+	"name": "Croissant Mod",
+	"description": "Croissant Mod for Minecraft Java 1.21.1 by Michael McMartin!",
+	"authors": [
+		"Michael McMartin"
+	],
+	"contact": {
+		"homepage": "dont have one yet",
+		"sources": "me"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/croissantmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.michael.croissantmod.CroissantMod"
+		],
+		"fabric-datagen": [
+			"net.michael.croissantmod.CroissantModDataGenerator"
+		],
+		"client": [
+			"net.michael.croissantmod.CroissantModClient"
+		]
+	},
+	"mixins": [
+		"croissantmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
