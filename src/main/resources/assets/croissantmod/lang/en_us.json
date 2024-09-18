@@ -1,4 +1,8 @@
 {
   "item.croissantmod.croissant": "Croissant",
-  "item.croissantmod.raw_pink_garnet": "Raw Pink Garnet"
+
+  "block.croissantmod.croissant_block": "Block of Croissants...",
+
+  "itemgroup.croissantmod.croissant_mod_items": "Croissant Mod Items",
+  "itemgroup.croissantmod.croissant_mod_blocks": "Croissant Mod Blocks"
 }
