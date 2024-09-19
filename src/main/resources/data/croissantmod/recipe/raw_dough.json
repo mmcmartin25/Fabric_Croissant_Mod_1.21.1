@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "HHH",
+    "HEH",
+    "HWH"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    },
+    "H": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "id": "croissantmod:raw_dough",
+    "count": 6
+  },
+  "show_notification": true
+}
