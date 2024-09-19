@@ -14,6 +14,7 @@ public class ModItems {
     public static final Item RAW_DOUGH = registerItem("raw_dough", new Item (new Item.Settings()));
     public static final Item BUTTER = registerItem("butter", new Item (new Item.Settings()));
     public static final Item DUBIOUS_MEAL = registerItem("dubious_meal", new Item (new Item.Settings()));
+    public static final Item DOUGH = registerItem("dough", new Item (new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(CroissantMod.MOD_ID, name), item);
@@ -25,6 +26,7 @@ public class ModItems {
             entries.add(RAW_DOUGH);
             entries.add(BUTTER);
             entries.add(DUBIOUS_MEAL);
+            entries.add(DOUGH);
         });
     }
 }

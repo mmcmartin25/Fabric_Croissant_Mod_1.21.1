@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "DDD",
+    "BBB",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "croissantmod:dough"
+    },
+    "B": {
+      "item": "croissantmod:butter"
+    }
+  },
+  "result": {
+    "id": "croissantmod:croissant",
+    "count": 3
+  },
+  "show_notification": true
+}
