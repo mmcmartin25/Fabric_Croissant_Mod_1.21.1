@@ -13,5 +13,6 @@ public class CroissantMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+
 	}
 }

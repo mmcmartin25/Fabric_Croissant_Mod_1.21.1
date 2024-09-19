@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:chicken"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "croissantmod:dubious_meal"
+  }
+}
