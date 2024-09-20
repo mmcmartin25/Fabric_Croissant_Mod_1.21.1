@@ -2,6 +2,7 @@ package net.michael.croissantmod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.michael.croissantmod.CroissantMod;
+import net.michael.croissantmod.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -21,6 +22,8 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_DOUGH);
                         entries.add(ModItems.DUBIOUS_MEAL);
                         entries.add(ModItems.CROISSANTWAND);
+
+                        entries.add(ModBlocks.CROISSANT_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {

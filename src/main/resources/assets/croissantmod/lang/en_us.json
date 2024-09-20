@@ -4,9 +4,11 @@
   "item.croissantmod.butter": "Butter",
   "item.croissantmod.dubious_meal": "Dubious Meal",
   "item.croissantmod.dough": "Dough",
-  "item.croissantmod.croissant_wand": "Croissant Wand",
+  "item.croissantmod.croissant_wand": "Croisswand",
 
-  "itemgroup.croissantmod.croissantmod_items": "Croissant Mod Items"
+  "itemgroup.croissantmod.croissantmod_items": "Croissant Mod Items",
+
+  "block.croissantmod.croissant_block": "Croissant Block..?"
 
 
 }
