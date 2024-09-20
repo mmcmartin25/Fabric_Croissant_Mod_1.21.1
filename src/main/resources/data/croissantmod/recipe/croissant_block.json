@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "croissantmod:croissant"
+    }
+  },
+  "result": {
+    "id": "croissantmod:croissant_block",
+    "count": 1
+  },
+  "show_notification": true
+}
