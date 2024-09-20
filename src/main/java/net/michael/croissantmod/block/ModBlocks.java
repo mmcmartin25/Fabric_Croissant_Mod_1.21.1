@@ -13,7 +13,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block CROISSANT_BLOCK = registerBlock("croissant_block.json",
+    public static final Block CROISSANT_BLOCK = registerBlock("croissant_block",
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.MOSS_BLOCK)));
 

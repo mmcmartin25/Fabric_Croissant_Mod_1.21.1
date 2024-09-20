@@ -1,7 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "croissantmod:block/croissant_block"
-    }
+    "": { "model": "croissantmod:block/croissant_block" }
   }
 }
