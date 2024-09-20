@@ -24,6 +24,7 @@ public class ModItemGroups {
                         entries.add(ModItems.CROISSANTWAND);
 
                         entries.add(ModBlocks.CROISSANT_BLOCK);
+                        entries.add(ModBlocks.OVEN);
                     }).build());
 
     public static void registerItemGroups() {

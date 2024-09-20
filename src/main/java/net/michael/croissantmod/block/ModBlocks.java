@@ -17,6 +17,10 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.MOSS_BLOCK)));
 
+    public static final Block OVEN = registerBlock("oven",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(CroissantMod.MOD_ID, name), block);
@@ -32,6 +36,7 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.CROISSANT_BLOCK);
+            entries.add(ModBlocks.OVEN);
         });
     }
 }
