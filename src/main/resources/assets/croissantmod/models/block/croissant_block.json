@@ -1,3 +1,6 @@
 {
-  "parent": "croissantmod:block/croissant_block"
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "croissantmod:block/croissant_block"
+  }
 }
