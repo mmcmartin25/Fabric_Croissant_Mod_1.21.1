@@ -9,7 +9,7 @@
   "itemgroup.croissantmod.croissantmod_items": "Croissant Mod Items",
 
   "block.croissantmod.croissant_block": "Croissant Block..?",
-  "block.croissantmod.oven": "Oven"
-
+  "block.croissantmod.oven": "Oven",
+  "block.croissantmod.buttered_croissant_block": "Buttered Croissant Block"
 
 }
