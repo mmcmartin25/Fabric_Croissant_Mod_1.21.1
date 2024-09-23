@@ -17,6 +17,10 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.MOSS_BLOCK)));
 
+    public static final Block BUTTERED_CROISSANT_BLOCK = registerBlock("buttered_croissant_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.HONEY)));
+
     public static final Block OVEN = registerBlock("oven",
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
@@ -37,6 +41,7 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.CROISSANT_BLOCK);
             entries.add(ModBlocks.OVEN);
+            entries.add(ModBlocks.BUTTERED_CROISSANT_BLOCK);
         });
     }
 }
